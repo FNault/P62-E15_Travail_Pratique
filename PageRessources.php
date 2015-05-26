@@ -1,4 +1,6 @@
 <?php
+	// Site specific constants
+	define('SITE_NAME', 'NewsPaper');
 	// CSS Path Variables
 	$css_directory = 'Css/';
 	$css_files = array(
@@ -77,7 +79,7 @@
 		}
 		return $page_link;
 	}
-
+	// test requested Page if existing return the Page
 	function page_navigation(){
 		global $main_menu;
 		global $secondary_menu;
@@ -94,19 +96,21 @@
 			return 'Accueil';
 		}
 	}
+
+	// Output the specific content to each pages 
 	function page_content($page_name){
 		$content = '';
 		switch($page_name){
 			case 'Accueil':
-				$content .= "<h2>Bienvenue sur mon site Portfolios</h2>";
+				$content .= "<h2>Bienvenue sur " . SITE_NAME . "</h2>";
 				return $content;
 				break;
 			case 'Information':
-				$content .= "<h2>À Propos de moi</h2>";
+				$content .= "<h2>À propos de nous</h2>";
 				return $content;
 				break;
 			case 'Contact':
-				$content .= "<h2>Me Contacter</h2>";
+				$content .= "<h2>Nous contacter</h2>";
 				return $content;
 				break;
 			case 'Inscription':
@@ -131,4 +135,6 @@
 				break;
 		}
 	}
+
+
 ?>
