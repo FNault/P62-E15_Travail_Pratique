@@ -1,5 +1,6 @@
 <?php
 	require_once('PageRessources.php');
+    require_once('PageController.php');
 ?>
 <!DOCTYPE html>
 <html>

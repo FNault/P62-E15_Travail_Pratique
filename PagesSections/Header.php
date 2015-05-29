@@ -1,6 +1,10 @@
 <header>
 	<h1>
-		Portfolios
+		<?php echo page_navigation(); ?>
 	</h1>
-	<?php include_once('PagesSections/MainMenu.php'); ?>
+    <nav>
+        <?php
+            echo menu_items('Main');
+        ?>
+    </nav>
 </header>
