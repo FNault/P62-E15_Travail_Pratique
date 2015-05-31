@@ -9,7 +9,7 @@
 
     $secondary_menu = array(
         'Connexion' 		=> '?Page=Connexion',
-        'Galerie Photos' 	=> '?Page=Galerie Photos',
+        'Photos' 	        => '?Page=Photos',
         'Nouvelles'			=> '?Page=Nouvelles',
     );
 

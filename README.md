@@ -28,7 +28,7 @@
 ----------
 #### Version 0.0.1 ####
  -	Séparation du fichier **Index.php** -> **Head.php** et **Body.php**;
- -	séparation du fichier **Body.php** -> **Header.php**, **MainMenu.php**, **Content.php** et **Footer.php**;
+ -	séparation du fichier **Body.php** -> **Header.php**, le contenu de la pages et **Footer.php**;
  -	Ajout d'un fichier **PageRessources.php** contenant :
 	 -	Fonctions de génération des balises `<link>` et `<script>` selon le nombre de fichier à ajouter;
  -  Ajout d'un fichier **PageController.php** contenant :

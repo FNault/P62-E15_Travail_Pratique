@@ -1,6 +1,7 @@
 <?php
 	require_once('PageRessources.php');
     require_once('PageController.php');
+    require_once('ArticlesGenerator.php');
 ?>
 <!DOCTYPE html>
 <html>
