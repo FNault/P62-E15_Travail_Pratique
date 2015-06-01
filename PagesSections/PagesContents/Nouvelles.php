@@ -19,7 +19,7 @@
             <input type="submit" value="Trier les Articles"/>
         </form>
         <?php
-           // echo article_loader($_POST['Filter']);
+
         ?>
     </section>
 </section>

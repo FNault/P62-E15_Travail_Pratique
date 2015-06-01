@@ -2,6 +2,7 @@
 	require_once('PageRessources.php');
     require_once('PageController.php');
     require_once('ArticlesGenerator.php');
+    require_once('UsersManager.php');
 ?>
 <!DOCTYPE html>
 <html>

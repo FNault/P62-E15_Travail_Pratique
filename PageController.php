@@ -52,7 +52,7 @@
         global $main_menu;
         global $secondary_menu;
         if(isset($_GET['Page'])){
-            if(array_key_exists($_GET['Page'], $main_menu) || array_key_exists($_GET['Page'], $secondary_menu)){
+            if(array_key_exists($_GET['Page'], $main_menu) || array_key_exists($_GET['Page'], $secondary_menu) || $_GET['Page'] == 'Admin'){
                 return $_GET['Page'];
             }
             else{
