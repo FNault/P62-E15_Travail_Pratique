@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Dim 31 Mai 2015 à 19:10
+-- Généré le :  Lun 01 Juin 2015 à 02:21
 -- Version du serveur :  5.6.17
 -- Version de PHP :  5.5.12
 
@@ -74,14 +74,15 @@ CREATE TABLE IF NOT EXISTS `users` (
   `city` text NOT NULL,
   `admin` tinyint(1) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 --
 -- Contenu de la table `users`
 --
 
 INSERT INTO `users` (`id`, `name`, `password`, `city`, `admin`) VALUES
-(1, 'Fred', 'Test', 'montreal', 1);
+(1, 'Fred', 'Test', 'montreal', 1),
+(2, 'test', 'test2', 'test', 1);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
